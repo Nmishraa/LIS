@@ -1,38 +1,55 @@
 h1{ color: blue;
 font-family: cursive;
 font-size: 50 px;
-
+text-align:center;
   }
-body  {background: green;}
 
 p img {
-  background: blue;
-  border :3px solid black;
-  padding: 2px;
+
+  border :4px solid blue;
+  padding: 1px;
+  padding-bottom: 1px;
+  float: center;
+  max-width: 100%;
+}
+nav ul{
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid Green;
+}
+
+nav ul li a{
+  color: MediumVioletRed;;
+  text-decoration: none;
+ padding: 8px;
+ display: block;
+ text-transform: uppercase;
+ font-size: 14px;
+ letter-spacing: 1px;
+ font-weight: bolder;
+  }
+nav ul li a:hover{
+  border-bottom: 3px solid MediumVioletRed;
+  padding-bottom: 5px;
+}
+
+p{
+  color: green;
+  font-size: 20px;
+  font-family:fantasy;
+}
+
+figure img{
+  border :6px solid purple;
+  padding: 3px;
   padding-bottom: 8px;
   float: center;
-
   max-width: 100%;
   height: 100%;
-  margin-top :
-}
-p{
-  color: blue;
-
-font-size: 20px;
-}
-figure img{
-  border : 3px solid blue;
-  max-width: 40%;
-  padding: 2px;
-  padding-bottom: 4px;
-  float: center;;
-  text-align: center;
   margin-right: 20px;
   margin-top : 20px;
-}
-
-figcaption{
-
-  color: blue;
 }
