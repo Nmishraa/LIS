@@ -117,3 +117,6 @@ figure.section-image.odd{
     float: left;
     margin-right: : 20px;
   }
+header img {
+  float: right;
+}

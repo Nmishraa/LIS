@@ -11,7 +11,7 @@ h2{
   text-align:center;
   }
 
-table tr{
+table tr td{
   color: #871f54;}
 
 
@@ -29,4 +29,11 @@ P{ color:blue; }
 h4{
   color: purple;
   font-size: 20px;
+}
+header img {
+
+  float: left;
+}
+table tr{
+  color: purple;
 }
